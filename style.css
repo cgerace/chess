@@ -1,0 +1,98 @@
+#main {
+	display: inline;
+}
+
+#screen { 
+	width: 490px;
+	height: 25px;
+	margin-top: 25px;
+	margin-left: 100px;
+	margin-right: 0px;
+	border: 2px solid black;
+}
+
+#screen h2 {
+	margin-left: 50px;
+	margin-top: 5px;
+	font-size: 14px;
+}
+
+#board {
+	margin-top: 25px;
+	margin-left: 100px;
+	margin-right: 0px;
+	height: 500px;
+	width: 500px;
+}
+
+.cell {
+	float: left;
+	height: 46.875px;
+	width: 46.875px;
+	border: 2px solid black;
+	margin: 0.5px;
+	padding: 5px;
+}
+
+#buttons {
+	position: relative;
+	margin-left: 220px;
+	margin-top: 15px;
+}
+
+#bench {
+	position: relative;
+	left: 700px;
+	bottom: 500px;
+}
+
+#bench h2 {
+	font-size: 18px;
+}
+
+img {
+	position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    margin-bottom: 85%;
+    height: 31.25px;
+    width: 31.25px;
+}
+
+.selected img {
+	height: 46.875px;
+	width: 46.875px;
+	margin-top: 0px;
+}
+
+button {
+	margin-left: 30px;
+	font-size: 18px;
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+	padding: 5px 5px;
+	border-radius: 5px;
+}
+
+#bench > div {
+	display: block;
+	width: 400px;
+	height: 200px;
+}
+
+.bench {
+	float: left;
+	height: 31.25px;
+	width: 31.25px;
+	margin-left: 100px;
+	margin: 1px;
+	padding: 5px;
+}
+
+.row {
+	float: left;
+	clear: both;
+}
